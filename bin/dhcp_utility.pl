@@ -100,8 +100,9 @@ sub do_read() {
     }
 
     print("Reading leases from $leases_file\n");
-
+	$leases_file = './oui_table.txt';
     open(F, $leases_file) or die("Cannot open $leases_file: $!");
+	#::: open(F, $leases_file) or die("Cannot open $leases_file: $!");
     my $content = join('', <F>);
     close(F);
     @all_leases = split(/lease/, $content);

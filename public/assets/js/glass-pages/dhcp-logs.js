@@ -44,6 +44,7 @@ $('#dhcp_log').height($(window).height() * 0.6);
 
 var editor = ace.edit("dhcp_log");
 editor.setTheme("ace/theme/terminal");
+editor.setHighlightActiveLine(true);
 editor.$blockScrolling = Infinity;
 
 get_mac_oui_data();
@@ -53,6 +54,17 @@ function get_mac_oui_data() {
 		mac_oui_data = {};
         $.getJSON("/api/get_mac_oui_list", function (data) {
             mac_oui_data = data;
+        });
+    }
+}
+
+get_subnet_data();
+
+function get_subnet_data() {
+	if(typeof subnet_data === "undefined") {
+		subnet_data = {};
+        $.getJSON("/api/get_subnet_list", function (data) {
+            subnet_data = data;
         });
     }
 }
@@ -73,6 +85,19 @@ function parse_log_stream (console_data){
                 if ((line_data[i].split(":").length - 1) == 5) {
                     var mac_oui = line_data[i].split(":").join("").toUpperCase().slice(0, 6);
                     console_data = console_data.replace(line_data[i], line_data[i] + " (" + mac_oui_data[mac_oui] + ")");
+                }
+            }
+        }
+    }
+	
+	if (typeof subnet_data !== "undefined") {
+        if (console_data.split(":").length - 1 >= 8) {
+            var line_data = console_data.split(" ");
+            for (i = 0; i < line_data.length; i++) {
+                if ((line_data[i].split(".").length) == 4) {
+                    var subnet_array = line_data[i].split(".");
+					var subnet_link = subnet_array[0] + "." + subnet_array[1] + "." + subnet_array[2];
+                    console_data = console_data.replace(line_data[i], line_data[i] + " (" + subnet_data[subnet_link] + ")");
                 }
             }
         }

@@ -40,6 +40,10 @@ app.use('/dhcp_config', require('./routes/dhcp_config'));
 app.use('/dhcp_config_snapshots', require('./routes/dhcp_config_snapshots'));
 app.use('/dhcp_config_snapshot_view', require('./routes/dhcp_config_snapshot_view'));
 app.use('/dhcp_config_save', require('./routes/dhcp_config_save'));
+app.use('/hostlist_config', require('./routes/hostlist_config'));
+app.use('/hostlist_save', require('./routes/hostlist_save'));
+app.use('/subnet_config', require('./routes/subnet_config'));
+app.use('/subnet_save', require('./routes/subnet_save'));
 app.use('/dhcp_start_stop_restart', require('./routes/dhcp_start_stop_restart'));
 app.use('/api_examples', require('./routes/api_examples'));
 app.use('/glass_settings', require('./routes/glass_settings'));
@@ -57,6 +61,7 @@ app.use('/api/get_mac_oui_count_by_vendor/', require('./api/get_mac_oui_count_by
 app.use('/api/get_dhcp_requests/', require('./api/get_dhcp_requests'));
 app.use('/api/get_server_info/', require('./api/get_server_info'));
 app.use('/api/get_mac_oui_list/', require('./api/get_mac_oui_list'));
+app.use('/api/get_subnet_list/', require('./api/get_subnet_list'));
 app.use('/api/get_glass_config/', require('./api/get_glass_config'));
 app.use('/api/get_websocket_config/', require('./api/get_websocket_config'));
 
@@ -103,6 +108,7 @@ global.leases_per_minute_data         = [];
 global.leases_per_second              = 0;
 global.listening_to_log_file          = 0;
 global.oui_data                       = {};
+global.subnet_data                    = {};
 global.total_leases                   = 0;
 global.socket_clients                 = 0;
 
@@ -119,6 +125,7 @@ try {
  * Pull in core handlers
  */
 let oui_reader           = require('./core/oui-reader');
+let subnet_reader        = require('./core/subnet-reader');
 let dhcp_leases          = require('./core/dhcp-leases');
 let glass_config_watcher = require('./core/glass-config-watcher');
 let dhcp_log_watcher     = require('./core/dhcp-log-watcher');
@@ -128,6 +135,7 @@ let app_timers           = require('./core/app-timers');
  * Run routines
  */
 oui_reader.initOuiDatabase();
+subnet_reader.initSubnetDatabase();
 dhcp_leases.parseLeasesFileOnce(glass_config);
 dhcp_leases.startLeaseListener(glass_config);
 dhcp_leases.setLeasesCleanTimer();

@@ -1,14 +1,16 @@
 {
-  "admin_user": "glassadmin",
-  "admin_password": "glassadmin",
-  "leases_file": "/var/lib/dhcp/dhcpd.leases",
-  "log_file": "/var/log/dhcp.log",
+  "admin_user": "server",
+  "admin_password": "Kn33C@p!",
+  "leases_file": "/var/lib/dhcpd/dhcpd.leases",
+  "log_file": "/var/log/dhcp",
   "config_file": "/etc/dhcp/dhcpd.conf",
+  "hostlist_file": "/etc/dhcp/known-hosts.list",
+  "subnet_file": "/etc/dhcp/subnets.list",
   "shared_network_critical_threshold": "95",
   "shared_network_warning_threshold": "0",
   "slack_webhook_url": "",
   "slack_alert_channel": "",
-  "leases_per_minute_threshold": "50",
+  "leases_per_minute_threshold": "300",
   "ip_ranges_to_allow": [
     ""
   ],

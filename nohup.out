@@ -1,0 +1,935 @@
+[Glass Server] Watching leases file '/var/lib/dhcpd/dhcpd.leases'
+[Glass Server] Config watcher initialized
+[Glass Server] DHCP log watcher initialized
+[Glass Server] Websocket server starting on port: 8080
+[Glass Server] Bootup complete
+[Glass Server] Leases file loaded
+[Glass Server] OUI Database Loaded
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[Glass Server] Alert loop started
+/
+[0mGET / [36m304 [0m6.441 ms - -[0m
+[0mGET /assets/plugins/bootstrap/css/bootstrap.css [36m304 [0m2.269 ms - -[0m
+[0mGET /assets/plugins/animate-css/animate.css [36m304 [0m1.984 ms - -[0m
+[0mGET /assets/plugins/morris/morris.css [36m304 [0m1.069 ms - -[0m
+[0mGET /assets/css/glass.css [36m304 [0m1.701 ms - -[0m
+[0mGET /assets/plugins/node-waves/waves.css [36m304 [0m1.075 ms - -[0m
+[0mGET /assets/plugins/jquery-datatable/skin/bootstrap/css/dataTables.bootstrap.css [36m304 [0m1.094 ms - -[0m
+[0mGET /assets/css/themes/all-themes.css [36m304 [0m0.637 ms - -[0m
+[0mGET /assets/css/style.css [36m304 [0m0.625 ms - -[0m
+[0mGET /assets/plugins/jquery/jquery.min.js [36m304 [0m0.220 ms - -[0m
+[0mGET /images/glass_logo.png [36m304 [0m0.234 ms - -[0m
+[0mGET /assets/plugins/jquery-datatable/jquery.dataTables.js [36m304 [0m0.498 ms - -[0m
+[0mGET /assets/plugins/jquery-datatable/skin/bootstrap/js/dataTables.bootstrap.js [36m304 [0m0.444 ms - -[0m
+[0mGET /assets/plugins/jquery-datatable/extensions/export/dataTables.buttons.min.js [36m304 [0m0.427 ms - -[0m
+[0mGET /assets/plugins/raphael/raphael.min.js [36m304 [0m0.429 ms - -[0m
+[0mGET /assets/plugins/morris/morris.min.js [36m304 [0m0.872 ms - -[0m
+[0mGET /assets/js/api-examples.js [36m304 [0m0.851 ms - -[0m
+[0mGET /assets/js/glass-websockets.js [36m304 [0m0.861 ms - -[0m
+[0mGET /assets/js/glass-core.js [36m304 [0m0.886 ms - -[0m
+[0mGET /assets/plugins/bootstrap/js/bootstrap.js [36m304 [0m1.253 ms - -[0m
+[0mGET /assets/plugins/bootstrap-select/js/bootstrap-select.js [36m304 [0m1.365 ms - -[0m
+[0mGET /assets/css/materialize.css [36m304 [0m1.673 ms - -[0m
+[0mGET /assets/plugins/jquery-slimscroll/jquery.slimscroll.js [36m304 [0m0.688 ms - -[0m
+[0mGET /assets/plugins/bootstrap-notify/bootstrap-notify.js [36m304 [0m0.416 ms - -[0m
+[0mGET /assets/plugins/node-waves/waves.js [36m304 [0m0.403 ms - -[0m
+[0mGET /assets/js/admin.js [36m304 [0m1.386 ms - -[0m
+[0mGET /assets/js/file-saver.js [36m304 [0m1.212 ms - -[0m
+[0mGET /assets/js/pjax.js [36m304 [0m1.238 ms - -[0m
+[0mGET /api/get_websocket_config [32m200 [0m4.065 ms - 16[0m
+[0mGET /images/user-img-background.jpg [36m304 [0m0.397 ms - -[0m
+[WS] CLIENT_CONNECT: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[0mGET /get_stats [32m200 [0m16.508 ms - 180[0m
+[0mGET /assets/plugins/bootstrap/fonts/glyphicons-halflings-regular.woff2 [36m304 [0m1.069 ms - -[0m
+[0mGET /images/glass_logo.png [36m304 [0m0.931 ms - -[0m
+[WS] Incoming Subscription 'dhcp_statistics'
+[Glass Server] Slack alert triggered, but no webhook configured...
+[Glass Server] Loading E-Mail template...
+[Glass Server] Loading E-Mail template... DONE...
+[Glass Server] Sending E-Mail Alert...
+
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[0mGET /get_stats [32m200 [0m9.498 ms - 181[0m
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[0mGET /get_stats [36m304 [0m11.078 ms - -[0m
+[0mGET /get_stats [36m304 [0m10.504 ms - -[0m
+[0mGET /get_stats [36m304 [0m7.886 ms - -[0m
+[0mGET /get_stats [32m200 [0m10.112 ms - 177[0m
+[0mGET /get_stats [36m304 [0m10.404 ms - -[0m
+[0mGET /get_stats [36m304 [0m10.823 ms - -[0m
+[0mGET /get_stats [36m304 [0m8.367 ms - -[0m
+[WS] STATUS: Socket clients (1)
+[0mGET /get_stats [32m200 [0m11.420 ms - 181[0m
+[0mGET /get_stats [36m304 [0m11.488 ms - -[0m
+[0mGET /get_stats [36m304 [0m10.839 ms - -[0m
+[0mGET /get_stats [32m200 [0m7.832 ms - 177[0m
+[0mGET /get_stats [36m304 [0m6.857 ms - -[0m
+[0mGET /get_stats [36m304 [0m10.334 ms - -[0m
+[WS] STATUS: Socket clients (1)
+[0mGET /get_stats [32m200 [0m10.589 ms - 180[0m
+[0mGET /get_stats [36m304 [0m11.072 ms - -[0m
+[0mGET /get_stats [36m304 [0m8.848 ms - -[0m
+[0mGET /get_stats [32m200 [0m10.491 ms - 177[0m
+[0mGET /get_stats [36m304 [0m10.502 ms - -[0m
+[0mGET /get_stats [36m304 [0m7.160 ms - -[0m
+[WS] STATUS: Socket clients (1)
+[0mGET /get_stats [32m200 [0m11.437 ms - 181[0m
+[0mGET /get_stats [36m304 [0m8.282 ms - -[0m
+[0mGET /get_stats [36m304 [0m6.406 ms - -[0m
+[0mGET /get_stats [32m200 [0m11.592 ms - 177[0m
+[0mGET /get_stats [36m304 [0m9.677 ms - -[0m
+[0mGET /get_stats [36m304 [0m8.938 ms - -[0m
+[WS] STATUS: Socket clients (1)
+[0mGET /get_stats [32m200 [0m10.645 ms - 180[0m
+[0mGET /get_stats [36m304 [0m8.885 ms - -[0m
+[0mGET /get_stats [36m304 [0m9.173 ms - -[0m
+[0mGET /get_stats [32m200 [0m10.647 ms - 177[0m
+[0mGET /get_stats [36m304 [0m11.140 ms - -[0m
+[0mGET /get_stats [36m304 [0m12.580 ms - -[0m
+[WS] STATUS: Socket clients (1)
+[0mGET /get_stats [32m200 [0m9.607 ms - 180[0m
+[0mGET /get_stats [36m304 [0m10.182 ms - -[0m
+[0mGET /get_stats [36m304 [0m6.507 ms - -[0m
+[0mGET /get_stats [32m200 [0m9.629 ms - 177[0m
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[0mGET /get_stats [32m200 [0m9.581 ms - 180[0m
+[0mGET /get_stats [36m304 [0m10.856 ms - -[0m
+[0mGET /get_stats [36m304 [0m10.447 ms - -[0m
+[0mGET /get_stats [36m304 [0m10.124 ms - -[0m
+[0mGET /get_stats [36m304 [0m10.683 ms - -[0m
+[0mGET /get_stats [36m304 [0m11.677 ms - -[0m
+[WS] STATUS: Socket clients (1)
+[0mGET /get_stats [36m304 [0m11.108 ms - -[0m
+[0mGET /get_stats [36m304 [0m10.418 ms - -[0m
+[0mGET /get_stats [36m304 [0m6.112 ms - -[0m
+[0mGET /dhcp_config_snapshots?v_ajax [31m500 [0m6.245 ms - 61[0m
+[0mGET /get_stats [32m200 [0m7.919 ms - 177[0m
+[0mGET /get_stats [36m304 [0m10.686 ms - -[0m
+[0mGET /dhcp_config?v_ajax [36m304 [0m0.858 ms - -[0m
+[0mGET /assets/js/ace_editor/ace.js [36m304 [0m0.215 ms - -[0m
+[0mGET /assets/js/ace_editor/theme-terminal.js [36m304 [0m0.308 ms - -[0m
+[0mGET /assets/js/glass-pages/dhcp-config.js [36m304 [0m0.394 ms - -[0m
+[0mPOST /dhcp_config_save [32m200 [0m69.968 ms - 108[0m
+[WS] STATUS: Socket clients (1)
+[0mGET /dhcp_config_snapshots?v_ajax [32m200 [0m3.348 ms - 1892[0m
+[0mGET /assets/js/ace_editor/ace.js [36m304 [0m0.340 ms - -[0m
+[0mGET /assets/js/ace_editor/theme-terminal.js [36m304 [0m0.441 ms - -[0m
+[0mGET /assets/js/glass-pages/dhcp-config-snapshots.js [32m200 [0m5.102 ms - 616[0m
+[0mGET /dhcp_config?v_ajax [36m304 [0m0.963 ms - -[0m
+[0mGET /assets/js/ace_editor/ace.js [36m304 [0m0.585 ms - -[0m
+[0mGET /assets/js/ace_editor/theme-terminal.js [36m304 [0m0.391 ms - -[0m
+[0mGET /assets/js/glass-pages/dhcp-config.js [36m304 [0m0.455 ms - -[0m
+[WS] STATUS: Socket clients (1)
+[0mGET /get_stats [36m304 [0m7.249 ms - -[0m
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[0mGET /get_stats [36m304 [0m11.250 ms - -[0m
+[0mGET /dhcp_config [32m200 [0m1.963 ms - 12512[0m
+[0mGET /assets/plugins/bootstrap/css/bootstrap.css [36m304 [0m0.495 ms - -[0m
+[0mGET /assets/plugins/node-waves/waves.css [36m304 [0m0.289 ms - -[0m
+[0mGET /assets/plugins/animate-css/animate.css [36m304 [0m0.958 ms - -[0m
+[0mGET /assets/plugins/morris/morris.css [36m304 [0m0.725 ms - -[0m
+[0mGET /assets/css/style.css [36m304 [0m1.176 ms - -[0m
+[0mGET /assets/css/glass.css [36m304 [0m1.080 ms - -[0m
+[0mGET /assets/plugins/jquery-datatable/skin/bootstrap/css/dataTables.bootstrap.css [36m304 [0m0.996 ms - -[0m
+[0mGET /assets/css/themes/all-themes.css [36m304 [0m0.899 ms - -[0m
+[0mGET /assets/plugins/jquery/jquery.min.js [36m304 [0m0.303 ms - -[0m
+[0mGET /images/glass_logo.png [36m304 [0m0.235 ms - -[0m
+[0mGET /assets/plugins/jquery-datatable/jquery.dataTables.js [36m304 [0m3.223 ms - -[0m
+[0mGET /assets/plugins/jquery-datatable/skin/bootstrap/js/dataTables.bootstrap.js [36m304 [0m2.947 ms - -[0m
+[0mGET /assets/plugins/jquery-datatable/extensions/export/dataTables.buttons.min.js [36m304 [0m2.700 ms - -[0m
+[0mGET /assets/plugins/raphael/raphael.min.js [36m304 [0m2.599 ms - -[0m
+[0mGET /assets/plugins/morris/morris.min.js [36m304 [0m2.414 ms - -[0m
+[0mGET /assets/js/api-examples.js [36m304 [0m2.470 ms - -[0m
+[0mGET /assets/js/glass-core.js [36m304 [0m0.459 ms - -[0m
+[0mGET /assets/js/glass-websockets.js [36m304 [0m0.835 ms - -[0m
+[0mGET /assets/js/ace_editor/ace.js [36m304 [0m0.865 ms - -[0m
+[0mGET /assets/js/ace_editor/theme-terminal.js [36m304 [0m0.835 ms - -[0m
+[0mGET /assets/js/glass-pages/dhcp-config.js [36m304 [0m0.853 ms - -[0m
+[0mGET /assets/plugins/bootstrap/js/bootstrap.js [36m304 [0m0.826 ms - -[0m
+[0mGET /assets/plugins/bootstrap-select/js/bootstrap-select.js [36m304 [0m0.857 ms - -[0m
+[0mGET /assets/plugins/jquery-slimscroll/jquery.slimscroll.js [36m304 [0m0.218 ms - -[0m
+[0mGET /assets/plugins/bootstrap-notify/bootstrap-notify.js [36m304 [0m0.210 ms - -[0m
+[0mGET /assets/plugins/node-waves/waves.js [36m304 [0m1.270 ms - -[0m
+[0mGET /assets/js/admin.js [36m304 [0m1.047 ms - -[0m
+[0mGET /assets/js/file-saver.js [36m304 [0m1.035 ms - -[0m
+[0mGET /assets/js/pjax.js [36m304 [0m0.658 ms - -[0m
+[0mGET /assets/css/materialize.css [36m304 [0m0.168 ms - -[0m
+[0mGET /api/get_websocket_config [36m304 [0m1.002 ms - -[0m
+[0mGET /images/user-img-background.jpg [36m304 [0m0.460 ms - -[0m
+[WS] CLIENT_CONNECT: Socket clients (2)
+[WS] STATUS: Socket clients (1)
+[0mGET /images/glass_logo.png [32m200 [0m1.869 ms - 22041[0m
+[0mGET /glass_alerts?v_ajax [32m200 [0m3.948 ms - 3218[0m
+[0mGET /images/slack-icon.png [32m200 [0m1.696 ms - 5677[0m
+[WS] STATUS: Socket clients (1)
+[0mGET /glass_settings?v_ajax [36m304 [0m1.819 ms - -[0m
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[0mGET /dhcp_start_stop_restart?v_ajax [32m200 [0m26.273 ms - 2497[0m
+[WS] STATUS: Socket clients (1)
+Redirecting to /bin/systemctl start isc-dhcp-server.service
+Failed to start isc-dhcp-server.service: Unit isc-dhcp-server.service not found.
+RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: 5
+    at ServerResponse.writeHead (_http_server.js:209:11)
+    at ServerResponse.writeHead (/opt/glass-isc-dhcp/node_modules/on-headers/index.js:44:26)
+    at ServerResponse._implicitHeader (_http_server.js:200:8)
+    at write_ (_http_outgoing.js:585:9)
+    at ServerResponse.end (_http_outgoing.js:702:5)
+    at ServerResponse.send (/opt/glass-isc-dhcp/node_modules/express/lib/response.js:221:10)
+    at /opt/glass-isc-dhcp/app.js:84:6
+    at Layer.handle_error (/opt/glass-isc-dhcp/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/opt/glass-isc-dhcp/node_modules/express/lib/router/index.js:315:13)
+    at /opt/glass-isc-dhcp/node_modules/express/lib/router/index.js:284:7
+[0mPOST /dhcp_start_stop_restart [31m500 [0m43.929 ms - 1015[0m
+[0mGET /dhcp_log?v_ajax [36m304 [0m1.439 ms - -[0m
+[0mGET /assets/js/ace_editor/ace.js [36m304 [0m0.505 ms - -[0m
+[0mGET /assets/js/ace_editor/theme-terminal.js [36m304 [0m5.417 ms - -[0m
+[0mGET /assets/js/glass-pages/dhcp-logs.js [36m304 [0m2.026 ms - -[0m
+[0mGET /api/get_mac_oui_list [36m304 [0m27.115 ms - -[0m
+[WS] Incoming Subscription 'dhcp_log_subscription'
+[WS] event_unsubscribe 'dhcp_log_subscription'
+[WS] STATUS: Socket clients (1)
+[0mGET /get_stats [32m200 [0m5.086 ms - 177[0m
+[WS] STATUS: Socket clients (1)
+[0mGET /dhcp_config?v_ajax [36m304 [0m1.736 ms - -[0m
+[0mGET /assets/js/ace_editor/ace.js [36m304 [0m0.456 ms - -[0m
+[0mGET /assets/js/ace_editor/theme-terminal.js [36m304 [0m0.417 ms - -[0m
+[0mGET /assets/js/glass-pages/dhcp-config.js [36m304 [0m0.389 ms - -[0m
+[WS] STATUS: Socket clients (1)
+[0mGET /dhcp_log?v_ajax [36m304 [0m0.636 ms - -[0m
+[0mGET /assets/js/ace_editor/ace.js [36m304 [0m0.381 ms - -[0m
+[0mGET /assets/js/ace_editor/theme-terminal.js [36m304 [0m0.472 ms - -[0m
+[0mGET /assets/js/glass-pages/dhcp-logs.js [36m304 [0m0.348 ms - -[0m
+[0mGET /dhcp_leases?v_ajax [36m304 [0m1.108 ms - -[0m
+[0mPOST /dhcp_lease_search [32m200 [0m2.231 ms - 379[0m
+[0mGET /assets/plugins/bootstrap/fonts/glyphicons-halflings-regular.woff2 [36m304 [0m0.492 ms - -[0m
+[0mGET /dhcp_statistics?v_ajax [36m304 [0m1.078 ms - -[0m
+[0mGET /api/get_vendor_count [36m304 [0m0.901 ms - -[0m
+[0mGET /api/get_mac_oui_count_by_vendor [36m304 [0m0.813 ms - -[0m
+[0mGET /api/get_dhcp_requests [36m304 [0m0.621 ms - -[0m
+[0mGET /dhcp_config?v_ajax [36m304 [0m0.820 ms - -[0m
+[0mGET /assets/js/ace_editor/ace.js [36m304 [0m0.219 ms - -[0m
+[0mGET /assets/js/ace_editor/theme-terminal.js [36m304 [0m0.190 ms - -[0m
+[0mGET /assets/js/glass-pages/dhcp-config.js [36m304 [0m0.177 ms - -[0m
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[0mGET /get_stats [32m200 [0m11.403 ms - 181[0m
+[WS] STATUS: Socket clients (1)
+[0mGET /get_stats [32m200 [0m10.692 ms - 180[0m
+[0mGET /get_stats [36m304 [0m8.919 ms - -[0m
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[0mGET /get_stats [36m304 [0m10.694 ms - -[0m
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[Glass Server] Watching leases file '/var/lib/dhcpd/dhcpd.leases'
+[Glass Server] Config watcher initialized
+[Glass Server] DHCP log watcher initialized
+[Glass Server] Websocket server starting on port: 8080
+[Glass Server] Bootup complete
+[Glass Server] Leases file loaded
+[Glass Server] OUI Database Loaded
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[Glass Server] Alert loop started
+[Glass Server] Slack alert triggered, but no webhook configured...
+[Glass Server] Loading E-Mail template...
+[Glass Server] Loading E-Mail template... DONE...
+[Glass Server] Sending E-Mail Alert...
+
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+/
+[0mGET / [32m200 [0m6.574 ms - 14571[0m
+[0mGET /assets/plugins/node-waves/waves.css [32m200 [0m9.123 ms - 4563[0m
+[0mGET /assets/plugins/morris/morris.css [32m200 [0m4.920 ms - 433[0m
+[0mGET /assets/plugins/animate-css/animate.css [32m200 [0m6.117 ms - 72259[0m
+[0mGET /assets/css/glass.css [32m200 [0m4.681 ms - 255[0m
+[0mGET /assets/plugins/bootstrap/css/bootstrap.css [32m200 [0m12.701 ms - 146082[0m
+[0mGET /assets/plugins/jquery-datatable/skin/bootstrap/css/dataTables.bootstrap.css [32m200 [0m1.607 ms - 4063[0m
+[0mGET /assets/css/style.css [32m200 [0m5.561 ms - 206056[0m
+[0mGET /assets/css/themes/all-themes.css [32m200 [0m1.351 ms - 25551[0m
+[0mGET /assets/plugins/jquery/jquery.min.js [32m200 [0m1.367 ms - 97163[0m
+[0mGET /images/glass_logo.png [32m200 [0m0.284 ms - 22041[0m
+[0mGET /assets/plugins/jquery-datatable/skin/bootstrap/js/dataTables.bootstrap.js [32m200 [0m3.274 ms - 4851[0m
+[0mGET /assets/plugins/jquery-datatable/extensions/export/dataTables.buttons.min.js [32m200 [0m3.763 ms - 16027[0m
+[0mGET /assets/js/api-examples.js [32m200 [0m3.885 ms - 844[0m
+[0mGET /assets/plugins/morris/morris.min.js [32m200 [0m4.791 ms - 35652[0m
+[0mGET /assets/plugins/raphael/raphael.min.js [32m200 [0m5.733 ms - 92516[0m
+[0mGET /assets/js/glass-core.js [32m200 [0m1.083 ms - 6712[0m
+[0mGET /assets/css/materialize.css [32m200 [0m1.173 ms - 9802[0m
+[0mGET /assets/js/glass-websockets.js [32m200 [0m1.284 ms - 1791[0m
+[0mGET /assets/plugins/bootstrap/js/bootstrap.js [32m200 [0m2.694 ms - 68954[0m
+[0mGET /assets/plugins/bootstrap-select/js/bootstrap-select.js [32m200 [0m7.058 ms - 62661[0m
+[0mGET /assets/plugins/jquery-slimscroll/jquery.slimscroll.js [32m200 [0m5.018 ms - 16825[0m
+[0mGET /assets/plugins/bootstrap-notify/bootstrap-notify.js [32m200 [0m3.087 ms - 11649[0m
+[0mGET /assets/plugins/node-waves/waves.js [32m200 [0m2.718 ms - 18135[0m
+[0mGET /assets/js/admin.js [32m200 [0m1.265 ms - 15884[0m
+[0mGET /assets/js/file-saver.js [32m200 [0m2.438 ms - 2445[0m
+[0mGET /assets/plugins/jquery-datatable/jquery.dataTables.js [32m200 [0m4.555 ms - 447281[0m
+[0mGET /assets/js/pjax.js [32m200 [0m1.662 ms - 6616[0m
+[0mGET /images/user-img-background.jpg [32m200 [0m1.475 ms - 26835[0m
+[0mGET /api/get_websocket_config [32m200 [0m4.001 ms - 16[0m
+[0mGET /get_stats [32m200 [0m11.382 ms - 181[0m
+[WS] CLIENT_CONNECT: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[0mGET /assets/plugins/bootstrap/fonts/glyphicons-halflings-regular.woff2 [32m200 [0m2.212 ms - 18028[0m
+[WS] Incoming Subscription 'dhcp_statistics'
+[0mGET /images/glass_logo.png [36m304 [0m1.428 ms - -[0m
+[0mGET /favicon.ico [33m404 [0m1.055 ms - 9[0m
+[0mGET /get_stats [36m304 [0m10.947 ms - -[0m
+[WS] STATUS: Socket clients (1)
+[0mGET /get_stats [36m304 [0m11.044 ms - -[0m
+[0mGET /get_stats [36m304 [0m7.387 ms - -[0m
+[0mGET /get_stats [36m304 [0m10.433 ms - -[0m
+[0mGET /get_stats [32m200 [0m7.686 ms - 177[0m
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[0mGET /get_stats [32m200 [0m11.237 ms - 180[0m
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+[WS] STATUS: Socket clients (0)
+/
+[0mGET / [36m304 [0m2.268 ms - -[0m
+[0mGET /assets/plugins/bootstrap/css/bootstrap.css [36m304 [0m1.464 ms - -[0m
+[0mGET /assets/plugins/node-waves/waves.css [36m304 [0m1.078 ms - -[0m
+[0mGET /assets/plugins/animate-css/animate.css [36m304 [0m0.506 ms - -[0m
+[0mGET /assets/plugins/morris/morris.css [36m304 [0m0.717 ms - -[0m
+[0mGET /assets/css/style.css [36m304 [0m0.479 ms - -[0m
+[0mGET /assets/css/glass.css [36m304 [0m0.473 ms - -[0m
+[0mGET /assets/plugins/jquery-datatable/skin/bootstrap/css/dataTables.bootstrap.css [36m304 [0m0.497 ms - -[0m
+[0mGET /assets/css/themes/all-themes.css [36m304 [0m0.508 ms - -[0m
+[0mGET /assets/plugins/jquery/jquery.min.js [36m304 [0m0.203 ms - -[0m
+[0mGET /images/glass_logo.png [36m304 [0m0.238 ms - -[0m
+[0mGET /assets/plugins/jquery-datatable/jquery.dataTables.js [36m304 [0m1.825 ms - -[0m
+[0mGET /assets/plugins/jquery-datatable/skin/bootstrap/js/dataTables.bootstrap.js [36m304 [0m1.694 ms - -[0m
+[0mGET /assets/plugins/jquery-datatable/extensions/export/dataTables.buttons.min.js [36m304 [0m1.628 ms - -[0m
+[0mGET /assets/plugins/raphael/raphael.min.js [36m304 [0m2.366 ms - -[0m
+[0mGET /assets/plugins/morris/morris.min.js [36m304 [0m1.144 ms - -[0m
+[0mGET /assets/js/api-examples.js [36m304 [0m1.067 ms - -[0m
+[0mGET /assets/js/glass-core.js [36m304 [0m0.644 ms - -[0m
+[0mGET /assets/js/glass-websockets.js [36m304 [0m0.591 ms - -[0m
+[0mGET /assets/plugins/bootstrap/js/bootstrap.js [36m304 [0m0.404 ms - -[0m
+[0mGET /assets/plugins/bootstrap-select/js/bootstrap-select.js [36m304 [0m1.062 ms - -[0m
+[0mGET /assets/plugins/jquery-slimscroll/jquery.slimscroll.js [36m304 [0m0.911 ms - -[0m
+[0mGET /assets/css/materialize.css [36m304 [0m1.981 ms - -[0m
+[0mGET /assets/plugins/bootstrap-notify/bootstrap-notify.js [36m304 [0m1.121 ms - -[0m
+[0mGET /assets/plugins/node-waves/waves.js [36m304 [0m0.300 ms - -[0m
+[0mGET /assets/js/admin.js [36m304 [0m0.404 ms - -[0m
+[0mGET /assets/js/file-saver.js [36m304 [0m1.976 ms - -[0m
+[0mGET /assets/js/pjax.js [36m304 [0m2.010 ms - -[0m
+[0mGET /images/user-img-background.jpg [36m304 [0m2.033 ms - -[0m
+[0mGET /api/get_websocket_config [36m304 [0m0.925 ms - -[0m
+[0mGET /get_stats [36m304 [0m10.070 ms - -[0m
+[WS] CLIENT_CONNECT: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[0mGET /assets/plugins/bootstrap/fonts/glyphicons-halflings-regular.woff2 [36m304 [0m0.590 ms - -[0m
+[WS] Incoming Subscription 'dhcp_statistics'
+[0mGET /get_stats [36m304 [0m8.899 ms - -[0m
+[0mGET /get_stats [36m304 [0m10.591 ms - -[0m
+[0mGET /get_stats [32m200 [0m7.602 ms - 177[0m
+[0mGET /get_stats [36m304 [0m7.790 ms - -[0m
+[0mGET /get_stats [36m304 [0m10.377 ms - -[0m
+[WS] STATUS: Socket clients (1)
+[0mGET /get_stats [32m200 [0m10.090 ms - 180[0m
+[0mGET /get_stats [36m304 [0m7.408 ms - -[0m
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[0mGET /get_stats [32m200 [0m10.307 ms - 177[0m
+[0mGET /get_stats [36m304 [0m8.817 ms - -[0m
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[0mGET /get_stats [32m200 [0m8.648 ms - 180[0m
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
+[WS] STATUS: Socket clients (1)
