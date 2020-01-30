@@ -2,7 +2,7 @@
   "admin_user": "server",
   "admin_password": "Kn33C@p!",
   "leases_file": "/var/lib/dhcpd/dhcpd.leases",
-  "log_file": "/var/log/dhcp",
+  "log_file": "/var/log/messages",
   "config_file": "/etc/dhcp/dhcpd.conf",
   "hostlist_file": "/etc/dhcp/known-hosts.list",
   "subnet_file": "/etc/dhcp/subnets.list",
