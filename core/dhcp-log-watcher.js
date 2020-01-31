@@ -14,6 +14,10 @@ module.exports = {
 
 		tail_dhcp_log.on("line", function (data) {
 
+			if (!/dhcpd\[/i.test(data)) {
+				return;
+			}
+			
 			/**
 			 * Broadcast log data
 			 */

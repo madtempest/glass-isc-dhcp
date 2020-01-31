@@ -48,6 +48,16 @@ module.exports = {
 			cpu_utilization = parseFloat(execSync("top -bn 1 | awk 'NR>7{s+=$9} END {print s/4}'").toString())
 		}, (15 * 1000));
 	},
+	pollDhcpStatus: function () {
+		return setInterval(function () {
+			dhcp_raw = execSync("/bin/systemctl status dhcpd.service | grep Active | awk '{print $2}'").toString()
+			if (/active/i.test(dhcp_raw)) {
+				dhcp_status = "Active";
+			} else {
+				dhcp_status = "Inactive";
+			}
+		}, (5 * 1000));
+	},
 	clearStaleWebsocketConnectionsTimer: function () {
 		return setInterval(function () {
 			stale_connections_audit();

@@ -41,6 +41,7 @@ app.use('/dhcp_config_snapshots', require('./routes/dhcp_config_snapshots'));
 app.use('/dhcp_config_snapshot_view', require('./routes/dhcp_config_snapshot_view'));
 app.use('/dhcp_config_save', require('./routes/dhcp_config_save'));
 app.use('/hostlist_config', require('./routes/hostlist_config'));
+app.use('/hosts_manager', require('./routes/hosts_manager'));
 app.use('/hostlist_save', require('./routes/hostlist_save'));
 app.use('/subnet_config', require('./routes/subnet_config'));
 app.use('/subnet_save', require('./routes/subnet_save'));
@@ -147,6 +148,7 @@ dhcp_log_watcher.init(glass_config);
  */
 app_timers.clearStaleWebsocketConnectionsTimer();
 app_timers.pollCpuUtilizationTimer();
+app_timers.pollDhcpStatus();
 app_timers.purgeRequestDataCompleteTimer();
 app_timers.purgeRequestDataTimer();
 app_timers.startDashboardTimer();

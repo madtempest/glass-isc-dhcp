@@ -10,7 +10,8 @@ router.get('/', function (req, res, next) {
 		"cpu_utilization": cpu_utilization,
 		"leases_per_second": current_leases_per_second,
 		"leases_per_minute": leases_per_minute,
-		"host_name": host_name
+		"host_name": host_name,
+		"dhcp_status": dhcp_status
 	};
 
 	res.setHeader('Content-Type', 'application/json');
