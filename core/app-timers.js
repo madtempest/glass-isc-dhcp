@@ -50,11 +50,11 @@ module.exports = {
 	},
 	pollDhcpStatus: function () {
 		return setInterval(function () {
-			dhcp_raw = execSync("/bin/systemctl status dhcpd.service | grep Active | awk '{print $2}'").toString()
+			dhcp_raw = execSync("service isc-dhcpd status | awk '{print $2}'").toString()
 			if (/active/i.test(dhcp_raw)) {
-				dhcp_status = "Active";
+				dhcp_status = "running";
 			} else {
-				dhcp_status = "Inactive";
+				dhcp_status = "not";
 			}
 		}, (5 * 1000));
 	},
