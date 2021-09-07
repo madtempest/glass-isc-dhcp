@@ -8,6 +8,8 @@
 * Disclaimer: Glass and its author has no affiliation with ISC and the authors of isc-dhcp-server
 * Original Author: Chris Miles: chris.miles.e@gmail.com
 
+**This fork has FreeBSD specific changes for those who want to use it on that platform instead of Linux**
+
 **Table of Contents**
 
 - [Features](#features)
